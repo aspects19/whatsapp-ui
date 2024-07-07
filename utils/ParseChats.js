@@ -7,7 +7,7 @@ const parseChat = (chatText) => {
         time,
         user,
         text: message,
-        isUser: user === 'YourName' // Replace 'YourName' with the actual name used in the chat file
+        isUser: user === 'YourName'
       };
     });
     return chatArray;
