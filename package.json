@@ -9,14 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "next": "14.2.4",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.4"
+    "react-icons": "^5.2.1"
   },
   "devDependencies": {
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
     "eslint": "^8",
-    "eslint-config-next": "14.2.4"
-  }
+    "eslint-config-next": "14.2.4",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  },
+  "description": "A WhatsApp UI recreater from an exported chat",
+  "main": "index.js",
+  "repository": "https://github.com/aspects19/whatsapp-ui",
+  "author": "aspect <jeffamenya388@gmail.com>",
+  "license": "MIT"
 }

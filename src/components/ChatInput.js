@@ -9,28 +9,28 @@ const ChatInput = () => {
         <Image
           src="/assets/emojis.png" 
           alt="Upload"
-          width={20}
+          width={23}
           height={20}
         />
       </div>
       <input
         type="text"
-        className="pl-10 pr-10 py-2 border-none font-bold w-full focus:outline-none bg-slate-700 rounded-full "
+        className="pl-11 pr-10 py-2 border-none font-bold w-full focus:outline-none bg-slate-700 rounded-full "
         placeholder="Message"
       />
       <div className="absolute right-12 cursor-pointer" >
         <Image
-          src="/assets/emojis.png" 
+          src="/assets/file.png" 
           alt="Send"
-          width={20}
+          width={27}
           height={20}
         />
       </div>
       <div className="absolute right-5 cursor-pointer" >
         <Image
-          src="/assets/emojis.png" 
+          src="/assets/camera.png" 
           alt="Send"
-          width={20}
+          width={22}
           height={20}
         />
       </div>

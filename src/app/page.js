@@ -10,7 +10,7 @@ function Home() {
 
   return (
     <main className="flex justify-center">
-      <div className="max-w-lg w-full bg-white shadow-md h-screen rounded-lg p-6">
+      <div className="h-screen p-6 my-1 w-96 bg-background-image">
         <h1 className="text-2xl font-bold text-center mb-4">Welcome to Chat Export Viewer</h1>
         <p className="text-center text-gray-600 mb-8">
           Upload your chat_export.txt file to view and explore your chat history.
