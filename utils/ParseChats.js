@@ -1,4 +1,4 @@
-const parseChat = (chatText) => {
+const parseChat = (chatText, myUsername) => {
   const lines = chatText.split('\n');
   const messages = [];
 
@@ -6,21 +6,21 @@ const parseChat = (chatText) => {
       const [date, timeRest] = line.split(', ');
       const [time, rest] = timeRest.split(' - ');
 
-      const isUserMessage = rest.includes(': ') 
-      
+      const isUserMessage = rest.includes(': ');
+
       const [sender, message] = isUserMessage ? rest.split(': ') : [null, rest];
 
       messages.push({
           id: index + 1,
-          isMessage: isUserMessage, 
+          isMessage: isUserMessage,
           isUser: message,
           time: time,
           text: message || rest,
+          isMe: sender === myUsername,
       });
   });
 
   return messages;
-}
+};
 
 export default parseChat
-  

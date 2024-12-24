@@ -17,7 +17,7 @@ function Page() {
 4/3/24, 22:58 - Brian Matege added Cynthia mac2
 4/3/24, 22:59 - Cynthia mac2: Watu wengi`
 
-  const messages = parseChat(raw)
+  const messages = parseChat(raw, "Brian Matege")
 
   return (
     <main className='flex justify-center'>

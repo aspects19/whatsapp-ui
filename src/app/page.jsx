@@ -3,7 +3,6 @@ import React from 'react';
 
 function Home() {
   const handleFileUpload = (event) => {
-    // Handle file upload logic here
     const file = event.target.files[0];
     console.log('File uploaded:', file);
   };
