@@ -13,7 +13,7 @@ const parseChat = (chatText) => {
       messages.push({
           id: index + 1,
           isMessage: isUserMessage, 
-          isUser: !message,
+          isUser: message,
           time: time,
           text: message || rest,
       });

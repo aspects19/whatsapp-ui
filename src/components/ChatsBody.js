@@ -13,17 +13,17 @@ function ChatsBody({ messages }) {
           <div
             key={message.id}
             className={`max-w-72 p-3 pb-3 rounded-lg ${
-              message.isUser ? 'bg-green-900 hover:bg-green-950 ml-auto text-left' : 'bg-[#2A2A2A] text-[#EDEDED]  mr-auto text-left'
+              message.isUser ? 'bg-[#056162] text-[#EDEDED] p-2 rounded-lg max-w-xs ml-auto text-left' : 'bg-[#2A2A2A] text-[#EDEDED]  mr-auto text-left'
             }`}
           >
-            <p className="text-sm relative">
+            <p className="text-md relative font-semibold ">
               {message.text}
-              <span className="inline-flex text-xs pt-4  text-slate-400 hover:text-slate-400 right-0 absolute ">
+              <span className="inline-flex text-xs pt-4  text-zinc-400 hover:text-slate-400 right-0 absolute ">
                 {message.time} {message.isUser? <Image className='h-4 w-5' src={"/assets/blueticks.png"} alt='' width={20} height={20}/>: <span></span>}  </span>        
             </p>
           </div>
         ) : (
-          <div key={message.id} className="text-center text-sm text-gray-500 my-2">
+          <div key={message.id} className=" flex justify-center text-xs bg-[#2A2A2A] text-center  text-gray-500 my-2">
             {message.text}
           </div>
         )
