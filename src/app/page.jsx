@@ -8,7 +8,7 @@ function Home() {
   };
 
   return (
-    <main className="flex justify-center">
+    <main className="flex justify-center font-afternoonGarden">
       <div className="h-screen p-6 my-1 w-96 bg-background-image">
         <h1 className="text-2xl font-bold text-center mb-4">Welcome to Chat Export Viewer</h1>
         <p className="text-center text-gray-600 mb-8">

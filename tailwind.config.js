@@ -14,11 +14,17 @@ module.exports = {
         "background-image": "url(/assets/background.png)",
       },
       colors: {
+        header: "#0B1014",
         primary: "#124C37",
         secondary: "#1F262A",
         link: "#4E98C3",
         status: "#12171B",
-        record: "#21CO62"
+        record: "#21C062",
+        input: "#1F272A"
+
+      },
+      fontFamily: {
+        afternoonGarden: ['afternoonGarden', 'sans-serif'],
       },
     },
   },

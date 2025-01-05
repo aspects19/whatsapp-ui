@@ -5,9 +5,9 @@ import { FaWifi } from "react-icons/fa";
 import { IoBatteryFullOutline } from "react-icons/io5";
 import { MdOutlineSignalCellularAlt } from "react-icons/md";
 
-function NotificationBar({time}) {
+const notificationBar = ({time}) => {
   return (
-    <div className=" pt-1 px-2 flex h-9 fixed top-0 w-screen md:w-96 bg-slate-900 justify-between">
+    <div className=" pt-1 px-2 flex h-9 fixed top-0 w-screen md:w-96 bg-header justify-between">
       <div className='flex'>
         <span className='px-2 text-sm'>{time}</span>
         <IoLogoWhatsapp/>
@@ -22,4 +22,4 @@ function NotificationBar({time}) {
   )
 }
 
-export default NotificationBar
+export default notificationBar
