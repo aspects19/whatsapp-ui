@@ -24,7 +24,7 @@ module.exports = {
 
       },
       fontFamily: {
-        afternoonGarden: ['afternoonGarden', 'sans-serif'],
+        
       },
     },
   },

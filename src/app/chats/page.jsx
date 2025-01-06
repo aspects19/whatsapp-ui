@@ -10,14 +10,15 @@ function Page() {
   const raw = `3/24/24, 19:42 - Messages and calls are end-to-end encrypted. No one outside of this chat, not even WhatsApp, can read or listen to them. Tap to learn more.
 12/14/23, 22:35 - ~ Senator created group "Best friends"
 3/24/24, 19:42 - Daisy added you
-4/3/24, 22:30 - Brian Matege: Rada wakuu huku c mmechill excess
+4/3/24, 22:30 - Brian Matege: Rada wakuu huku c mmechill excess 
 4/3/24, 22:30 - +254 714 872718: Tuko mzee
 4/3/24, 22:31 - Adrian: Hii ata inasahaulika 😂😂🤦‍♂️
 4/3/24, 22:31 - Brian Matege: Hata hamuezi salimiana manze
 4/3/24, 22:58 - Brian Matege added Cynthia mac2
-4/3/24, 22:59 - Cynthia mac2: Watu wengi`
+4/3/24, 22:59 - Cynthia mac2: Watu wengi
+4/3/24, 22:30 - Jeff: Made this tet deliberately long to make sure it covers more than a line so as to cover the aspect of the line overflowing past a single line for this task as it will be an example to test the adaptability of the code and doubles as a debugging mode `
 
-  const messages = parseChat(raw, "Brian Matege")
+  const messages = parseChat(raw, "Jeff")
 
   return (
     <main className='flex justify-center'>
